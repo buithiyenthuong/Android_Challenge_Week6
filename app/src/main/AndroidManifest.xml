@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Android_w6.nhom14.challenge_w6">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.challenge_w6">
+        <activity android:name="com.Android_w6.nhom14.challenge_w6.Activity.Movie.ListMovieActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Android_w6.nhom14.challenge_w6.Activity.Movie.DetailMovieActivity">
+
+        </activity>
+        <activity android:name="com.Android_w6.nhom14.challenge_w6.ProfileActivity" />
+    </application>
+
+</manifest>
